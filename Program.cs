@@ -27,7 +27,17 @@ namespace meet_21._03
 
             //Engine.Phisics.Vector3D vector3D1 = new Engine.Phisics.Vector3D();
             //Vector3D vector3D = new Vector3D();
-            
+
+            //Laptop laptop = new Laptop("vaaaai", 12.9, 34.5, 22.4, 56.9);
+            //Console.WriteLine(laptop.Info());
+
+            Car car = new Car("dg", "sdgfjk", "dksjfo", 13, "белый");
+            Console.WriteLine(car.Info);
+
+            car.Compare("dg");
+            car.Compare("dfpvk[pkdfv");
+
+
         }
     }
     //[модификатор доступа] struct [название] {} - нужны для того что бы хранить малое количество данных
